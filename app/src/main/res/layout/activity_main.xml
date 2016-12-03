@@ -15,7 +15,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_alignParentTop="true"
             android:id="@+id/team">
 
@@ -37,22 +36,19 @@
                     android:id="@+id/team_a_score" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/PointButtonStyle"
                     android:layout_marginTop="24dp"
                     android:text="@string/button_point_3"
                     android:onClick="addThreeForTeamA"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/PointButtonStyle"
                     android:layout_marginTop="8dp"
                     android:text="@string/button_point_2"
                     android:onClick="addTwoForTeamA"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/PointButtonStyle"
                     android:layout_marginTop="8dp"
                     android:text="@string/button_point_1"
                     android:onClick="addOneForTeamA"/>
@@ -82,22 +78,19 @@
                     android:id="@+id/team_b_score" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/PointButtonStyle"
                     android:layout_marginTop="24dp"
                     android:text="@string/button_point_3"
                     android:onClick="addThreeForTeamB"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/PointButtonStyle"
                     android:layout_marginTop="8dp"
                     android:text="@string/button_point_2"
                     android:onClick="addTwoForTeamB"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/PointButtonStyle"
                     android:layout_marginTop="8dp"
                     android:text="@string/button_point_1"
                     android:onClick="addOneForTeamB"/>

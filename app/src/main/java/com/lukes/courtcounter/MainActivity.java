@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         this.displayForTeamA();
     }
 
-    public void displayForTeamA() {
+    private void displayForTeamA() {
         TextView scoreView = (TextView)findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(this.scoreForA));
     }
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         this.displayForTeamB();
     }
 
-    public void displayForTeamB() {
+    private void displayForTeamB() {
         TextView scoreView = (TextView)findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(this.scoreForB));
     }
